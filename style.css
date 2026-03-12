@@ -1,0 +1,63 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+height:100vh;
+background:#1e293b;
+font-family:Arial;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* container */
+.game{
+width:95vw;
+height:95vh;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+}
+
+/* grid */
+.grid{
+flex:1;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:10px;
+}
+
+/* A B C D */
+.solutions{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:10px;
+margin-top:10px;
+}
+
+/* butonat */
+button{
+background:gold;
+border:none;
+border-radius:10px;
+font-size:2vw;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* kolonat */
+.col{
+color:brown;
+}
+
+/* final */
+.final{
+margin-top:10px;
+height:10%;
+font-size:2vw;
+color:#facc15;
+background:#334155;
+}
